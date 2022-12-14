@@ -1,0 +1,19 @@
+a {
+    background-color: #222;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    position: relative;
+    top: -8px;
+    text-decoration: none;
+}
+
+button {
+    width: 80px;
+    background-color: #222;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    position: relative;
+    top: -8px;
+}
