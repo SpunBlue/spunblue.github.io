@@ -1,12 +1,57 @@
+@font-face {
+    font-family: 'Monsterrat';
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
 body {
     margin: 0; /* Remove default margin */
     background-color: #222;
-    font-family: 'Comic Sans MS';
+    font-family: 'Monsterrat';
 }
 
 main {
     padding: 20px;
     color: white;
-    font-family: sans-serif;
-    height: 100vh;
+    font-family: 'Monsterrat';
+}
+
+main h1{
+    text-align: center; font-size: xx-large;
+}
+
+main p{
+    text-align: center; font-size: x-large;
+}
+
+articleLeft, articleLeft h1, articleLeft p{
+    text-align: left; 
+    margin-left: 5vw;
+    margin-top: 80px;
+}
+
+articleLeft p{
+    margin-top: 20px;
+    font-size: larger; 
+}
+
+articleCenter, articleCenter h1, articleCenter p{
+    color: white;
+    text-align: center;
+    margin-top: 80x;
+}
+
+articleCenter P{
+    margin-top: 20px;
+    font-size: larger;
+}
+
+articleRight, articleRight h1, articleRight p{
+    text-align: right; 
+    margin-right: 5vw;
+    margin-top: 80px;
+}
+
+articleRight p{
+    margin-top: 20px;
+    font-size: larger; 
 }

@@ -1,21 +1,32 @@
 <html>
     <style>
+        @font-face {
+            font-family: 'Monsterrat';
+            src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+        }
+
         body {
 		    margin: 0; /* Remove default margin */
-			font-family: 'Comic Sans MS';
+			font-family: 'Monsterrat';
             position: fixed; /* Fix the header to the top of the page */
 		    top: 0; /* Set the top position to 0 */
-		    width: 100%; /* Set the width to 100% to extend to the full width of the page */
+		    width: 100vw;
+            height: 100vh;
 		    background-color: #333; /* Set the background color to a dark gray */
 		    color: white; /* Set the text color to white */
 		    text-align: center; /* Center the text in the header */
 		}
+
+        a {
+            font-size: x-large;
+        }
     </style>
 
     <link href="../css/button.css" rel="stylesheet" />
 
     <body>
-        <h1>SpunBlue's Site</h1>	
+        <h1>SpunBlue's Site</h1>
+        <br>
         <a href="../index.html" target=_top>Home</a>
         <a href="../projects.html" target=_top>Projects</a>
     </body>
